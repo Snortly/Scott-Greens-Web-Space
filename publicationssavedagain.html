@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Publications</title>
+  
+  <style>
+    /* Inherit main styles for consistency */
+    body {
+      background-color: darkturquoise;
+      font-family: "Brush Script MT", cursive, sans-serif;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    header {
+      padding: 40px 20px 20px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 3.5em; /* Larger font for the title */
+      margin-bottom: 5px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      max-width: 600px;
+      padding: 0 10px;
+    }
+    nav {
+      width: 100%;
+      padding: 10px 0;
+      margin-bottom: 40px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      padding: 8px 15px;
+      font-size: 1.6em;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      border-radius: 20px;
+      transition: background-color 0.3s, color 0.3s;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      text-decoration: none;
+    }
+    main {
+      padding: 20px;
+      max-width: 90%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .document-list {
+        list-style: none;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .document-list li {
+        margin-bottom: 20px;
+    }
+    .document-list a {
+        font-family: sans-serif; /* Use a legible font for document links */
+        font-size: 1.5em;
+        color: #fff;
+        text-decoration: underline;
+        display: block;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        transition: background-color 0.3s;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .document-list a:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .note {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        color: #f0f0f0;
+        margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 5px;
+        font-size: 1.2em;
+      }
+      h1 {
+        font-size: 2.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Publications</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="autobiography.html">Autobiography</a>
+    <a href="art.html">Art</a>
+  </nav>
+
+  <main>
+    <h2>Documents Available for Download</h2>
+    <p>
+ 
+    <ul class="document-list">
+       
+           <li>
+            <!-- Link to the suggested PDF export (better for viewing) -->
+            <a href="schematic_of_time.pdf" style="margin-top: 15px;">
+                schematic of time.pdf
+            </a>
+            <div class="note">PDF version ensures all formatting and images are displayed correctly.</div>
+        </li>
+
+	<li>
+            <!-- Link to the suggested PDF export (better for viewing) -->
+            <a href="schematicOfTime.MP4" style="margin-top: 15px;">
+                schematic of time.pdf
+            </a>
+            <div class="note">MP4 version ensures all formatting and images are displayed correctly.</div>
+        </li>
+
+
+    </ul>
+
+  </main>
+</body>
+</html>
+
